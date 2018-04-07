@@ -184,7 +184,7 @@ namespace HelperService
             );
         }
 
-        private static void GenerateBatchFile(IEnumerable<string> argCommands, string argFilePath)
+        public static void GenerateBatchFile(IEnumerable<string> argCommands, string argFilePath)
         {
             if (File.Exists(argFilePath))
             {
